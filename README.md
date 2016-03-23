@@ -1,5 +1,7 @@
 
 # GSOC '16
+----------
+
 
 ## 1. Project Info
 
@@ -112,7 +114,7 @@ SegAnnDB is a Web-based computer vision system for genomic segmentation. My proj
 
 ### 9.2 Implementation
 
-#### **Browser support to render large PNG.**
+#### **1. Browser support to render large PNG.**
 
 #### Problem
 Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. Therefore it makes the SegAnnDB limited to testing and visualizing not so large DNA sequences. [This](http://sugiyama-www.cs.titech.ac.jp/~toby/images/) link demonstrates the problem in the browser.
@@ -126,7 +128,7 @@ Example demonstration is present [here](http://bioviz.rocq.inria.fr/profile/dr3h
 Currently the browser receives the whole image as a single DOM element and it renders the whole DOM before the user can interact with it. Instead of this, the DOM of image can be divided into several sub-DOMs and when the user scrolls through the DNA seq, new DOM is added to the page and the previous not visible DOM are thrashed out. This method will drastically reduce memory consumption by browser and will not hinder the work performed by the user.
 Example demonstration is present [here](http://codepen.io/sksq/pen/grWgNp).
 
-#### **Social features for sharing annotations**
+#### **2. Social features for sharing annotations**
 
 #### Problem
 
@@ -143,7 +145,7 @@ Currently if a user is logged in he can add annotations and view them later. The
 
 - Sharing annotation to multiple social media platform can be implemented as a stretch goal.
 
-#### **Improve UI and UX of app**
+#### **3. Improve UI and UX of app**
 
 #### Problem
 
@@ -158,7 +160,7 @@ The current UI of web-app is very outdated. The UX is not very intuitive and can
 - The UI of app will be in accordance with either [Flat design](https://en.wikipedia.org/wiki/Flat_design) or [Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
 
-#### **Periodically deletion of BerkeleyDB log file**
+#### **4. Periodically deletion of BerkeleyDB log file**
 
 #### Problem
 
@@ -176,7 +178,7 @@ Database log files consumes a lot of disk space. Depending on the rate at which 
 
 - This whole process is run as a separate thread, when the server starts.
 
-#### **Add Sign in via multiple social platforms** (Stretch Goal)
+#### **5. Add Sign in via multiple social platforms** (Stretch Goal)
 
 #### Problem
 
@@ -187,7 +189,7 @@ Currently SegAnnDB supports on log in via Mozilla Persona and the user is provid
 - Use [OAuth 2.0](http://oauth.net/2/) along with [GMail](https://developers.google.com/gmail/api/auth/about-auth), [GitHub](https://developer.github.com/v3/auth/), [Facebook](https://developers.facebook.com/docs/facebook-login) login API.
 
 
-#### **Easier local installation via npm or pip** (Stretch Goal)
+#### **6. Easier local installation via npm or pip** (Stretch Goal)
 
 #### Problem
 
@@ -205,6 +207,9 @@ The current local installation process for the SegAnnDB web-app is tedious and c
 #### Before Project Starts
 **Now - 22 May**
 Setting up development platform. Reading complete code, creating basic documentation while reading. Setting up design layouts.
+
+#### Render large PNG
+****
 
 
 ## 11. Management of Coding Project
