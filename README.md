@@ -1,6 +1,5 @@
 
 # GSOC '16
-----------
 
 
 ## 1. Project Info
