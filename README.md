@@ -1,3 +1,1 @@
-# GSOC16
-
-## Project Proposal
+# GSOC '16
