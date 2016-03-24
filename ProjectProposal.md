@@ -279,7 +279,6 @@ Link to sub-section implementation
 `renderWhenRequired()` implementation
 
 **9 June**
-
 Wrap up section
 
 ### Social features for sharing annotations
@@ -301,53 +300,67 @@ Wrap up section
 
 ### Improve UI and UX of app
 **21 June - 28 June**
+
 Setting up AngularJS along with pyramid
 
 **29 June - 6 July**
+
 Designing and implementing a better landing page
 
 **7 July - 13 July**
+
 Implementing new UI for each page
 
 **14 July**
+
 Wrap up section
 
 ### Unit Test for Pyramids
 
 **15 July - 19 July**
+
 Adding profile deletion test
 
 **20 July - 24 July**
+
 Implementing unit test in accordance with pyramid
 
 **25 July**
+
 Wrap up section
 
 ### Periodically deletion of BerkeleyDB log file
 
 **26 July - 29 July**
+
 Script to delete BerkeleyDB log file
 
 ### Add Sign in via multiple social platforms
 **30 July - 3 Aug**
+
 Add GMail, GitHub, Facebook login
 
 ### Easier local installation via npm or pip installation package
 **4 Aug - 5 Aug**
+
 Implement PPA for SegAnnDB
 
 **6 Aug - 7 Aug**
+
 Implement SegAnnDB for pip / npm
 
 **8 Aug**
+
 Document pip / npm
 
 ### Miscellaneous
 
 **9 Aug - 14 Aug**
+
 Buffer week: Wrap up, re-test, create python module for complete implementation.
 
 **15 Aug - 23 Aug**
+
 Final week: Tidy code, write tests, improve documentation and submit final code.
 
 ## 11. Management of Coding Project
