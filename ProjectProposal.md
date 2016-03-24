@@ -332,7 +332,7 @@ Script to delete BerkeleyDB log file
 Add GMail, GitHub, Facebook login
 
 ### Easier local installation via npm or pip installation package
-**4 Aug - 5 Aug **
+**4 Aug - 5 Aug**
 Implement PPA for SegAnnDB
 
 **6 Aug - 7 Aug**
