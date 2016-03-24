@@ -11,7 +11,7 @@
 
 ## 2. Biographical Information 
 
-I am an under graduate student pursuing my Bachelors in Computer Science from Indian Institute of Technology, Mandi. During the past 3 years I have worked on a number of projects, both academic and personal, which helped my strengthen my development skills and programming skills in general.
+I am an under graduate student pursuing my Bachelors in Computer Science from Indian Institute of Technology, Mandi. During the past 3 years I have worked on several projects, both academic and personal, which helped strengthen my development skills and programming skills in general.
 Three words describing me are Committed, Decisive and Restless.
 My resume is available [here](http://students.iitmandi.ac.in/~shubham_chandel/Resume/).
 
