@@ -39,15 +39,13 @@ I am an under graduate student pursuing my Bachelors in Computer Science from In
 
 - Student name: Shubham Chandel
 
-- Melange Link_id:  
-
 - Student postal address: 265, Sector 1, Ambala City (134003), Haryana, India
 
 - Telephone(s): +91 8628890396
 
 - Email(s): shubham_chandel@students.iitmandi.ac.in / shubham.zeez@gmail.com
 
-- Other communications channels: Skype/Google+, etc. : 
+- Other communications channels: Skype/Google+, etc. : shubham.zeez@gmail.com 
 
 
 ## 4. Student Affiliation
@@ -119,13 +117,38 @@ SegAnnDB is a Web-based computer vision system for genomic segmentation. My proj
 Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. Therefore it makes the SegAnnDB limited to testing and visualizing not so large DNA sequences. [This](http://sugiyama-www.cs.titech.ac.jp/~toby/images/) link demonstrates the problem in the browser.
 
 #### Proposed solution
-- Provide link to sub-sequence
+- **Provide link to sub-sequence**
+
 Instead of making the browser render the whole image DOM as one, break the large image into small sequence of pixel size equal to user's display screen size (say about 1500 pixels) and have the sub-section link to the child DNA sequence. 
 Example demonstration is present [here](http://bioviz.rocq.inria.fr/profile/dr3hg19/).
 
-- Render when required
-Currently the browser receives the whole image as a single DOM element and it renders the whole DOM before the user can interact with it. Instead of this, the DOM of image can be divided into several sub-DOMs and when the user scrolls through the DNA seq, new DOM is added to the page and the previous not visible DOM are thrashed out. This method will drastically reduce memory consumption by browser and will not hinder the work performed by the user.
+- **Render when required**
+
+Currently the browser receives the whole image as a single DOM element. Browser has to render the whole image before the user can interact with it.
+Instead of this, the image will be divided into several sub-images and each will be assigned to a DOM object. When the user will scroll through the DNA seq, only a small number of images (say 5 out of 50K) will be rendered and displayed by browser. New DOM will only be added if the user scrolls to that part of page. In the meantime the previous not visible DOM will be thrashed out to prevent memory usage.
+This method will drastically reduce memory consumption by browser and will not hinder the work performed by the user.
 Example demonstration is present [here](http://codepen.io/sksq/pen/grWgNp).
+
+#### Coding Style
+
+```
+splitDNASequence()
+```
+- break the large DNA sequence into multiple about 1500 pixel image
+
+```
+renderWhenRequired()
+```
+
+- keep track of user position relative to page.
+- create and assign new DOM elements.
+- thrash old DOM not present in user's field of view.
+
+```
+trackUserMovement()
+```
+- track if user scrolls
+- find where user is relative to page
 
 #### **2. Social features for sharing annotations**
 
@@ -143,6 +166,21 @@ Currently if a user is logged in he can add annotations and view them later. The
 	- Write access
 
 - Sharing annotation to multiple social media platform can be implemented as a stretch goal.
+
+	![](http://students.iitmandi.ac.in/~shubham_chandel/GSOC/Sharing.png)
+
+#### Coding Style 
+
+```
+generateShortURL()
+```
+- Generate short URL to be e-mailed
+
+```
+sendMailWithPermission()
+```
+- Assign permission to as described by user.
+- Send out e-mail to recipient.
 
 #### **3. Improve UI and UX of app**
 
@@ -206,10 +244,6 @@ The current local installation process for the SegAnnDB web-app is tedious and c
 #### Before Project Starts
 **Now - 22 May**
 Setting up development platform. Reading complete code, creating basic documentation while reading. Setting up design layouts.
-
-#### Render large PNG
-****
-
 
 ## 11. Management of Coding Project
 
