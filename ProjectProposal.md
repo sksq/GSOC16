@@ -118,13 +118,13 @@ SegAnnDB is a Web-based computer vision system for genomic segmentation. My proj
 Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. Therefore it makes the SegAnnDB limited to testing and visualizing not so large DNA sequences. [This](http://sugiyama-www.cs.titech.ac.jp/~toby/images/) link demonstrates the problem in the browser.
 
 #### Proposed solution
-- **Provide link to sub-sequence**
+ **Provide link to sub-sequence**
 
 Instead of making the browser render the whole image DOM as one, break the large image into small sequence of pixel size equal to user's display screen size (say about 1500 pixels) and have the sub-section link to the child DNA sequence. 
 
 Example demonstration is present [here](http://bioviz.rocq.inria.fr/profile/dr3hg19/).
 
-- **Render when required**
+**Render when required**
 
 Currently the browser receives the whole image as a single DOM element. Browser has to render the whole image before the user can interact with it.
 
