@@ -279,6 +279,7 @@ Link to sub-section implementation
 `renderWhenRequired()` implementation
 
 **9 June**
+
 Wrap up section
 
 ### Social features for sharing annotations
