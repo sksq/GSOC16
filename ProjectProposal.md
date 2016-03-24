@@ -269,29 +269,38 @@ The current local installation process for the SegAnnDB web-app is tedious and c
 
 ### Before Project Starts
 **Now - 22 May**
+
 Setting up development platform. Reading complete code, creating basic documentation while reading. Setting up design layouts.
 
 ### Browser support to render large PNG
 **23 May - 28 May**
+
 Link to sub-section implementation
 
 **29 May - 8 June**
+
 `renderWhenRequired()` implementation
 
 **9 June**
+
 Wrap up section
 
 ### Social features for sharing annotations
 
 **10 June - 11 June**
+
 Add sharing option to web-app
-11-14
+
+**11 June - 14 June**
+
 3 level of access implementation
 
 **15 June - 18 June**
+
 `sendMailWithPermission()` implementation
 
 **19 June**
+
 Wrap up section
 
 ### Mid-term evaluation
