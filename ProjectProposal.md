@@ -1,5 +1,5 @@
 
-# GSOC '16
+# GSOC '16: Project Proposal
 
 ## 1. Project Info
 
