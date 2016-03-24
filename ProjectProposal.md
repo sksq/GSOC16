@@ -117,13 +117,19 @@ Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. There
 
 #### Proposed solution
 - **Provide link to sub-sequence**
+
 Instead of making the browser render the whole image DOM as one, break the large image into small sequence of pixel size equal to user's display screen size (say about 1500 pixels) and have the sub-section link to the child DNA sequence. 
+
 Example demonstration is present [here](http://bioviz.rocq.inria.fr/profile/dr3hg19/).
 
 - **Render when required**
+
 Currently the browser receives the whole image as a single DOM element. Browser has to render the whole image before the user can interact with it.
+
 Instead of this, the image will be divided into several sub-images and each will be assigned to a DOM object. When the user will scroll through the DNA seq, only a small number of images (say 5 out of 50K) will be rendered and displayed by browser. New DOM will only be added if the user scrolls to that part of page. In the meantime the previous not visible DOM will be thrashed out to prevent memory usage.
+
 This method will drastically reduce memory consumption by browser and will not hinder the work performed by the user.
+
 Example demonstration is present [here](http://codepen.io/sksq/pen/grWgNp).
 
 #### Coding Style
@@ -166,7 +172,7 @@ Currently if a user is logged in he can add annotations and view them later. The
 
 	![](http://students.iitmandi.ac.in/~shubham_chandel/GSOC/Sharing.png)
 
-#### Coding Style 
+#### Coding Style
 
 ```
 generateShortURL()
