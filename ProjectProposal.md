@@ -73,8 +73,6 @@ Will be able to contribute all my time to this project.
 
 - Mentor emails: toby.hocking@mail.mcgill.ca
 
-- Mentor link_ids: 
-
 - Have you been in touch with the mentors? When and how? 
 Yes, I have been in touch with the mentor Toby through E-mail. We discussed the current state of SegAnnDB web-app and I proposed certain features which can be implemented over the course of this summer. 
 
