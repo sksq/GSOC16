@@ -201,6 +201,11 @@ The current UI of web-app is very outdated. The UX is not very intuitive and can
 
 - The UI of app will be in accordance with either [Flat design](https://en.wikipedia.org/wiki/Flat_design) or [Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
+#### Mockup
+
+Below is a sample mock-up for redesigned landing page of SegAnnDB.
+
+![](http://students.iitmandi.ac.in/~shubham_chandel/GSOC/SegAnnDB_mockup.jpg)
 
 #### **4. Unit Test for Pyramids**
 
