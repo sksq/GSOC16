@@ -115,7 +115,9 @@ SegAnnDB is a Web-based computer vision system for genomic segmentation. My proj
 #### **1. Browser support to render large PNG.**
 
 #### Problem
-Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. Therefore it makes the SegAnnDB limited to testing and visualizing not so large DNA sequences. [This](http://sugiyama-www.cs.titech.ac.jp/~toby/images/) link demonstrates the problem in the browser.
+Very large (> 500K pixels) DNA sequence cannot be rendered by the browser. Therefore it makes the SegAnnDB limited to testing and visualizing not so large DNA sequences. 
+
+[This](http://sugiyama-www.cs.titech.ac.jp/~toby/images/) link demonstrates the problem in the browser.
 
 #### Proposed solution
  **Provide link to sub-sequence**
