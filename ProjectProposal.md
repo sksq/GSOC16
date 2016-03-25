@@ -57,7 +57,7 @@ My resume is available [here](http://students.iitmandi.ac.in/~shubham_chandel/Re
 
 - Stage of completion: Third Year
 
-- Contact to verify: 
+- Contact to verify: [Assistant Registrar, IIT Mandi](http://students.iitmandi.ac.in/~shubham_chandel/GSOC/ShubhamChandel.pdf)
 
 ## 5. Schedule Conflicts
 
